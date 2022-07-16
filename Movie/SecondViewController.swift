@@ -31,15 +31,18 @@ class SecondViewController: UIViewController {
         posterImageView.layer.cornerRadius = 10
         posterImageView.layer.borderWidth = 5
         
-        //보더컬러는 추가적인 작업이 필요하기 때문에 cg컬러의 타입을 갖고 있기 때문에 타입 생략 불가
+        //보더컬러는 추가적인 작업이 필요하기 때문에 cg컬러의 타입을 갖고 있기 때문에 타입 생략 불갸
         posterImageView.layer.borderColor = UIColor.blue.cgColor
         
         //레이블의 속성 설정
+        //레이블 이름 설정
         titleLabel.text = "7번방의 선물"
+        //레이블의 배경 색 설정
         titleLabel.backgroundColor = .lightGray
+        //레이블의 이름 색깔 설정
         titleLabel.textColor = .cyan
+        //레이블의 폰트 사이즈 설정
         titleLabel.font = .boldSystemFont(ofSize: 30)
-        
         
     }
     
